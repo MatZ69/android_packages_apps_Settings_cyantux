@@ -191,14 +191,14 @@
 
     <PreferenceCategory android:title="@string/settings_ics_system_cap" />
 
-    	<com.android.settings.IconPreferenceScreen 
+    	<!--com.android.settings.IconPreferenceScreen 
 	android:title="@string/cm_settings_title" 
 	settings:icon="@drawable/ic_cyanogenmod">
         	<intent 
 			android:targetPackage="com.cyanogenmod.cmparts" 
 			android:action="android.intent.action.MAIN" 
 			android:targetClass="com.cyanogenmod.cmparts.activities.MainActivity" />
-    	</com.android.settings.IconPreferenceScreen>
+    	</com.android.settings.IconPreferenceScreen-->
 
     	<com.android.settings.IconPreferenceScreen 
 	android:title="@string/device_settings_title" 

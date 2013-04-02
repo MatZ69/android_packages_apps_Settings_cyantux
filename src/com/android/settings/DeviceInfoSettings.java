@@ -82,8 +82,8 @@ public class DeviceInfoSettings extends PreferenceActivity {
         setStringSummary("device_gpu", SystemProperties.get("ro.device.gpu", "adreno200"));
         setStringSummary("device_screen_resolution", m.heightPixels+" x "+m.widthPixels);
         setStringSummary("device_memory", getMemAvail().toString()+" MB / "+getMemTotal().toString()+" MB");
-	setStringSummary("device_swap_memory", getSwapMemAvail().toString()+" MB / "+getSwapMemTotal().toString()+" MB");
-        setStringSummary("device_total_memory", getTotalMemAvail().toString()+" MB / "+getTotalMemTotal().toString()+" MB CyanTUX");
+        setStringSummary("device_swap_memory", getSwapMemAvail().toString()+" MB / "+getSwapMemTotal().toString()+" MB");
+        setStringSummary("device_total_memory", getTotalMemAvail().toString()+" MB / "+getTotalMemTotal().toString()+" MB");
         setStringSummary("firmware_version", Build.VERSION.RELEASE);
         findPreference("firmware_version").setEnabled(true);
         findPreference("baseband_version").setSummary("S56607UXK1D5");

@@ -498,7 +498,8 @@
     <!-- Title of the Settings activity shown within the application itself. -->
     <string name="settings_label">Settings</string>
     <!-- Title of the Settings activity shown in the Launcher. [CHAR LIMIT=20] -->
-    <string name="settings_label_launcher">Settings</string>
+    <string name="settings_label_launcher">MainSettings</string>
+    <string name="settings_label_title">Settings</string>
     <!-- Label for option to select a settings panel as a shortcut -->
     <string name="settings_shortcut">Settings</string>
     <!-- Wireless controls settings screen, setting check box label -->
@@ -830,7 +831,7 @@
     <string name="hostname_save">Save</string>
     <!-- Button when cancelling hostname change -->
     <string name="hostname_cancel">Cancel</string>
-
+    <string name="main_settings_title">Full Settings</string>
     <!-- Wi-Fi Settings --> <skip />
     <!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
@@ -3092,7 +3093,7 @@ found in the list of installed applications.</string>
 
     <!-- Widget Picker -->
     <string name="widget_count">(%d widgets)</string>
-    <string name="cm_settings_title">CyanTUX settings</string>
+    <string name="cm_settings_title">CyanTUX Settings</string>
     <string name="device_settings_title">Device settings</string>
     <string name="wimax_settings">4G settings</string>
     <string name="wimax_settings_summary">Set up &amp; manage 4G network and modem</string>
@@ -3209,4 +3210,36 @@ found in the list of installed applications.</string>
     <!--  About device Screen, hardware info, GPU info -->
     <string name="gpu_info">GPU</string>
 
+    <!-- Sizes for pattern lockscreen -->
+    <string name="lock_pattern_size_3">3x3</string>
+    <string name="lock_pattern_size_4">4x4</string>
+    <string name="lock_pattern_size_5">5x5</string>
+    <string name="lock_pattern_size_6">6x6</string>
+
+    <!--- Volume key cursor control -->
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor to left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor to right/left</string>
+
+    <string name="nones"></string>
+    <string name="device_cpu"> CPU :</string>
+    <string name="max_cpus"> FREQ :</string>
+    <string name="device_memory"> RAM :</string>
+    <string name="kernel_versions"> KERNEL :</string>
+    <string name="firmware_versions"> VERSION :</string>
+    <string name="model_numbers"> MODEL :</string>
+    <string name="about_misc_settings">Device Info</string>
+
+    <!--- Sms security limit -->
+    <string name="app_security_title">APP SECURITY</string>
+    <string name="sms_security_check_limit_title">SMS security message limit</string>
+    <string name="sms_security_check_limit_summary">Receive an alert when an app sends too many messages (%d messages in 1 hour)</string>
+
+    <!-- Security settings screen, setting option name to change screen timeout -->
+    <string name="lock_after_timeout">Timeout</string>
+    <!-- Security settings screen, setting option summary to change screen timeout -->
+    <string name="lock_after_timeout_summary">Lock screen <xliff:g id="timeout_string">%1$s</xliff:g> after screen automatically turns off</string>
+    <string name="volume_overlay_title">Volume panel style</string>
+    <string name="title_activity_datamain">Apps Data usage</string>
 </resources>
