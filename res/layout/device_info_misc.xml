@@ -17,16 +17,16 @@
         android:shrinkColumns="1"
         android:stretchColumns="1"
         android:gravity="center"
-        android:paddingTop="5dip"
+        android:paddingTop="10dip"
         android:paddingBottom="5dip"
         android:background="@*android:drawable/alert_dark_frame"
         >
-        <TableRow>
+        <!--TableRow>
             <TextView
                 style="?android:attr/preferenceInformationStyle"
                 android:text="@string/nones"
             />
-        </TableRow>
+        </TableRow-->
         <TableRow android:paddingTop = "1dip">
             <TextView
                 style="?android:attr/preferenceInformationStyle"
@@ -43,16 +43,6 @@
                 android:text="@string/firmware_versions"
             />
             <TextView android:id="@+id/firmware_versions"
-                style="?android:attr/preferenceInformationStyle"
-            />
-        </TableRow>
-
-        <TableRow android:paddingTop = "1dip">
-            <TextView
-                style="?android:attr/preferenceInformationStyle"
-                android:text="@string/device_cpu"
-            />
-            <TextView android:id="@+id/device_cpus"
                 style="?android:attr/preferenceInformationStyle"
             />
         </TableRow>
@@ -86,6 +76,16 @@
                 style="?android:attr/preferenceInformationStyle"
             />
         </TableRow>
+        <!--TableRow android:paddingTop = "1dip">
+             <TextView
+                style="?android:attr/preferenceInformationStyle"
+                android:text="@string/device_cpu"
+            />
+            <TextView android:id="@+id/device_cpus"
+                style="?android:attr/preferenceInformationStyle"
+            />
+        </TableRow-->
+
         <TableRow android:paddingTop = "1dip">
             <TextView
                 style="?android:attr/preferenceInformationStyle"

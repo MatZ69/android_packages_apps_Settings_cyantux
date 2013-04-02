@@ -3223,12 +3223,12 @@ found in the list of installed applications.</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor to right/left</string>
 
     <string name="nones"></string>
-    <string name="device_cpu"> CPU :</string>
-    <string name="max_cpus"> FREQ :</string>
-    <string name="device_memory"> RAM :</string>
-    <string name="kernel_versions"> KERNEL :</string>
-    <string name="firmware_versions"> VERSION :</string>
-    <string name="model_numbers"> MODEL :</string>
+    <string name="device_cpu">Developer Id</string>
+    <string name="max_cpus"> CPU</string>
+    <string name="device_memory">RAM</string>
+    <string name="kernel_versions">KERNEL</string>
+    <string name="firmware_versions">Android Version</string>
+    <string name="model_numbers">Model Number</string>
     <string name="about_misc_settings">Device Info</string>
 
     <!--- Sms security limit -->

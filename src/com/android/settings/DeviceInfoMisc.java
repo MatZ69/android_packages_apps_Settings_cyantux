@@ -38,7 +38,7 @@ import java.util.regex.Pattern;
 
 public class DeviceInfoMisc extends Activity {
 
-    private TextView mDeviceCpus;
+    //private TextView mDeviceCpus;
     private TextView mMaxCpus;
     private TextView mDeviceMemorys;
     private TextView mFirmwares;
@@ -52,16 +52,16 @@ public class DeviceInfoMisc extends Activity {
 
         setContentView(R.layout.device_info_misc);
 
-        mDeviceCpus = (TextView) findViewById(R.id.device_cpus);
-        mDeviceCpus.setText(getCPUInfo());
+        //mDeviceCpus = (TextView) findViewById(R.id.device_cpus);
+        //mDeviceCpus.setText(": "+"Tuxkids");
         mDeviceMemorys = (TextView) findViewById(R.id.device_memorys);
-        mDeviceMemorys.setText(getMemTotal().toString()+" MB");
+        mDeviceMemorys.setText(": "+getMemTotal().toString()+" MB");
         mFirmwares = (TextView) findViewById(R.id.firmware_versions);
-        mFirmwares.setText(Build.VERSION.RELEASE);
+        mFirmwares.setText(": "+Build.VERSION.RELEASE);
         mModels = (TextView) findViewById(R.id.model_numbers);
-        mModels.setText(Build.MODEL + " CyanTUX Series");
+        mModels.setText(": "+Build.MODEL + " CyanTUX");
         mKernels = (TextView) findViewById(R.id.kernel_versions);
-        mKernels.setText(getFormattedKernelVersion());
+        mKernels.setText(": "+getFormattedKernelVersion());
         mMaxCpus = (TextView) findViewById(R.id.max_cpus);
         mMaxCpus.setText(toMHz(readOneLine(FREQ_MAX_FILES)));
     }
@@ -198,6 +198,6 @@ public class DeviceInfoMisc extends Activity {
     private String toMHz(String mhzString) {
         if (mhzString == null)
             return "-";
-        return new StringBuilder().append(Integer.valueOf(mhzString) / 1000).append(" MHz").toString();
+        return new StringBuilder().append(": ").append(Integer.valueOf(mhzString) / 1000).append(" MHz").toString();
     }
 }
